@@ -1,6 +1,15 @@
 // import functions and grab DOM elements
+const ball1 = document.getElementById('ball1');
+const ball2 = document.getElementById('ball2');
+const ball3 = document.getElementById('ball3');
 
-// let state
+const button = document.getElementById('shell1-button');
+const button = document.getElementById('shell2-button');
+const button = document.getElementById('shell3-button');
+
+const winSpan = document.getElementById('wins');
+const lossSpan = document.getElementById('losses');
+const totalSpan = document.getElementByUd('total');
 
 
 //const counter h4= document.getElement('counter');
