@@ -3,9 +3,9 @@ const ball1 = document.getElementById('ball1');
 const ball2 = document.getElementById('ball2');
 const ball3 = document.getElementById('ball3');
 
-const button = document.getElementById('shell1-button');
-const button = document.getElementById('shell2-button');
-const button = document.getElementById('shell3-button');
+const button1 = document.getElementById('shell1-button');
+const button2 = document.getElementById('shell2-button');
+const button3 = document.getElementById('shell3-button');
 
 const winSpan = document.getElementById('wins');
 const lossSpan = document.getElementById('losses');
