@@ -8,7 +8,7 @@ const button1 = document.getElementById('shell1-button');
 
 const winSpan = document.getElementById('wins');
 const lossSpan = document.getElementById('losses');
-const totalSpan = document.getElementByUd('total');
+const totalSpan = document.getElementById('total');
 
 let wins = 0;
 let total = 0;
