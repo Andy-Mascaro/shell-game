@@ -2,6 +2,9 @@
 
 // let state
 
+
+//const counter h4= document.getElement('counter');
+
 // set event listeners 
   // get user input
   // use user input to update state 
