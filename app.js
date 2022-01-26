@@ -13,15 +13,19 @@ const totalSpan = document.getElementById('total');
 
 let wins = 0;
 let total = 0;
+function reset(){
 
+
+    ball1.classList.remove('reveal');
+    ball2.classList.remove('reveal');
+    ball3.classList.remove('reveal');
+}
 
 // set event listeners 
 
 button1.addEventListener('click', ()=> {
 
-    ball1.classList.remove('reveal');
-    ball2.classList.remove('reveal');
-    ball3.classList.remove('reveal');
+    reset();
 
     total++;
 
@@ -43,7 +47,7 @@ button1.addEventListener('click', ()=> {
   
 
     winSpan.textContent = wins;
-    totalSpan.testContent = total;
+    totalSpan.textContent = total;
     lossSpan.textContent = total - wins;
 
 
@@ -52,9 +56,7 @@ button1.addEventListener('click', ()=> {
 
 button2.addEventListener('click', ()=> {
 
-    ball1.classList.remove('reveal');
-    ball2.classList.remove('reveal');
-    ball3.classList.remove('reveal');
+    reset();
 
     total++;
 
@@ -75,7 +77,7 @@ button2.addEventListener('click', ()=> {
     }
 
     winSpan.textContent = wins;
-    totalSpan.testContent = total;
+    totalSpan.textContent = total;
     lossSpan.textContent = total - wins;
 
 
@@ -86,9 +88,7 @@ button2.addEventListener('click', ()=> {
   // update DOM to reflect the new state
 button3.addEventListener('click', ()=> {
 
-    ball1.classList.remove('reveal');
-    ball2.classList.remove('reveal');
-    ball3.classList.remove('reveal');
+    reset();
 
     total++;
 
@@ -109,7 +109,7 @@ button3.addEventListener('click', ()=> {
     }
 
     winSpan.textContent = wins;
-    totalSpan.testContent = total;
+    totalSpan.textContent = total;
     lossSpan.textContent = total - wins;
 
 
