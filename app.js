@@ -14,7 +14,7 @@ const totalSpan = document.getElementById('total');
 let wins = 0;
 let total = 0;
 function reset(){
-    
+
     ball1.classList.remove('reveal');
     ball2.classList.remove('reveal');
     ball3.classList.remove('reveal');
@@ -65,10 +65,11 @@ button2.addEventListener('click', ()=> {
 
     if (ballLocation === 1) {
         ball1.classList.add('reveal');
-        wins++;
+        
 
     } else if (ballLocation === 2) {
         ball2.classList.add('reveal');
+        wins++;
 
     } else { 
         ball3.classList.add('reveal');
@@ -97,14 +98,14 @@ button3.addEventListener('click', ()=> {
 
     if (ballLocation === 1) {
         ball1.classList.add('reveal');
-        wins++;
+        
 
     } else if (ballLocation === 2) {
         ball2.classList.add('reveal');
 
     } else { 
         ball3.classList.add('reveal');
-
+        wins++;
     }
 
     winSpan.textContent = wins;
