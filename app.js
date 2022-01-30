@@ -20,6 +20,12 @@ function reset(){
     ball3.classList.remove('reveal');
 }
 
+function display() {
+    winSpan.textContent = wins;
+    totalSpan.textContent = total;
+    lossSpan.textContent = total - wins;
+}
+
 // set event listeners 
 
 button1.addEventListener('click', ()=> {
@@ -43,11 +49,8 @@ button1.addEventListener('click', ()=> {
         ball3.classList.add('reveal');
 
     }
+    display();
   
-
-    winSpan.textContent = wins;
-    totalSpan.textContent = total;
-    lossSpan.textContent = total - wins;
 
 
 
@@ -76,9 +79,7 @@ button2.addEventListener('click', ()=> {
 
     }
 
-    winSpan.textContent = wins;
-    totalSpan.textContent = total;
-    lossSpan.textContent = total - wins;
+    display();
 
 
 
@@ -108,9 +109,8 @@ button3.addEventListener('click', ()=> {
         wins++;
     }
 
-    winSpan.textContent = wins;
-    totalSpan.textContent = total;
-    lossSpan.textContent = total - wins;
+    display();
+    
 
 
 
