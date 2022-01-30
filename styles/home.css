@@ -2,10 +2,12 @@
 .shells {
     display: flex;
     flex-direction: row;
+    
 }
 
 .shell {
     width: 200px;
+    height: 214px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,6 +16,10 @@
 
 .shell img {
     width: 100%;
+    border: 1px;
+    
+    
+    
 }
 
 .reveal {
@@ -24,3 +30,4 @@
     border-radius: 50%;
     box-shadow: 5px -2px 5px rgb(9, 49, 109);
 }
+
