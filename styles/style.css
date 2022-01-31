@@ -1,4 +1,4 @@
-*body {
+body {
     /* feel free to update these css variables for a quick theme */
     
    /* --color1: white;
@@ -27,7 +27,9 @@
     --footer-height: 25px;
     
     font-family: 'Titillium Web', sans-serif;
-    background-color: var(--color2);
+    background-color: rgb(28, 104, 139);
+    
+    
 }
 
 main {
@@ -36,10 +38,12 @@ main {
     justify-content: center;
     align-items: center;
     margin-bottom: calc(var(--footer-height));
+    
+    
 }
 
 section {
-    background-color: var(--color3);
+    background-color:rgb(219, 107, 27);
     max-width: 80%;
     display: flex;
     flex-direction: column;
@@ -49,7 +53,11 @@ section {
     padding-bottom: var(--gutter);
     margin-top: var(--gutter);
     margin-bottom: var(--gutter);
-    border: solid 2px var(--color1);
+    border:rgb(184, 40, 184);
+    box-shadow: var(--shadow)
+     
+    
+    
 }
 
 

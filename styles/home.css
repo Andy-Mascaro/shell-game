@@ -2,6 +2,8 @@
 .shells {
     display: flex;
     flex-direction: row;
+    border-radius: 10px solid rgb(2, 215, 243);
+    
     
 }
 
