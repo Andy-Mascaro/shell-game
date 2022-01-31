@@ -1,1 +1,35 @@
 /* add home page styles here */
+.shells {
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px solid rgb(2, 215, 243);
+    
+    
+}
+
+.shell {
+    width: 200px;
+    height: 214px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.shell img {
+    width: 100%;
+    border: 1px;
+    
+    
+    
+}
+
+.reveal {
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+    background-color: rgba(65, 65, 110, 0.993);
+    border-radius: 50%;
+    box-shadow: 5px -2px 5px rgb(9, 49, 109);
+}
+
